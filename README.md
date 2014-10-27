@@ -14,7 +14,7 @@ This email address is then not checked, but just blindly accepted, making it pos
 Usage
 =====
 
-You can just use it directlt in your vanilla forums folder and use the jsConnect client id `jsconnect-test`, secret `99bottlesofbeer`, hash algorithm `sha256`.
+You can just use it directly in your vanilla forums folder and use the jsConnect client id `jsconnect-test`, secret `99bottlesofbeer`, hash algorithm `sha256`.
 
 Quick note on unique id: It us used by jsconnect to identify which user this jsconnect connects to.
 This means that if you use the same unique id, but change the info, then you can test the `ConnectSynchronize` option.
